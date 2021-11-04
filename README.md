@@ -23,3 +23,19 @@ Este projeto foi desenvolvido em grupo visando por em prática os conhecimentos 
 - Controlar receita em andamento a partir dos ingredientes
 - Finalizar receita
 - Ver receitas finalizadas
+
+## Instalação
+
+1. Clone o repositório
+
+2. Instale as dependencias
+
+```javascript
+npm install
+```
+
+3. Rode o app
+
+```javascript
+npm start
+```
