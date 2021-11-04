@@ -4,7 +4,7 @@ Um app de receitas onde é possível obter receitas de comidas e bebidas a parti
 
 ## Sobre o projeto
 
-Este projeto foi desenvolvido em grupo visando por em prática os conhecimentos em React e Metodologias Ágeis de trabalho. Durante o projeto foram utilizadas as praticas de SCRUM e KANBAN com planejamento inicial e reuniões diárias até a entrega do projeto. Junto com o React usamos os React Router, Hooks, Context API e Redux.
+Este projeto foi desenvolvido em grupo visando por em prática os conhecimentos em React e Metodologias Ágeis de trabalho. Durante o projeto foram utilizadas as praticas de SCRUM e KANBAN com planejamento inicial e reuniões diárias até a entrega do projeto. Junto com o React usamos os React Router, Hooks, Context API e Redux além de CSS puro para estilização.
 
 ## Recursos
 
