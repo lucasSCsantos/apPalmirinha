@@ -1,0 +1,47 @@
+.foodCardContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 172px;
+  justify-content: space-around;
+  margin: 10px 0 3px 13px;
+  overflow: hidden;
+  width: 160px;
+}
+
+.foodCardContent {
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 172px;
+  justify-content: space-around;
+  overflow: hidden;
+  padding-top: 15px;
+  width: 160px;
+}
+
+.foodImageRecipe {
+  border-radius: 17px;
+  height: 100px;
+  width: 80%;
+}
+
+.foodNameRecipe {
+  background-color: white;
+  color: black;
+  font-family: Verdana , sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  margin-bottom: -18px;
+  width: 80%;
+}
+
+.foodCategoryRecipe {
+  background-color: white;
+  font-size: 12px;
+  margin-top: -5px;
+  width: 80%;
+}

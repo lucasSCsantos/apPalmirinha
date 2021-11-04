@@ -1,0 +1,36 @@
+.categoryFilterContainer {
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.selectedCat {
+  background-image: linear-gradient(200deg, rgb(119, 216, 179), #0fa36b) !important;
+  color: white !important;
+  transition: ease 0.2s;
+}
+
+.catBtn {
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  height: 35px;
+  margin: 0 10px;
+  outline: none !important;
+  padding-top: 3px;
+  transition: ease 0.2s;
+  width: 90px;
+  z-index: 1;
+}
+
+.catBtn-mn {
+  font-size: 10px;
+}
+

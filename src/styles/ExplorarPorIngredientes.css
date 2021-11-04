@@ -1,0 +1,15 @@
+.container-page-ingredients {
+  height: 640px;
+  width: 100%;
+}
+
+.container-card-ingredients {
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-flow: row wrap;
+  height: 515px;
+  justify-content: space-around;
+  overflow: auto;
+  width: 360px;
+}

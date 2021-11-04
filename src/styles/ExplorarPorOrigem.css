@@ -1,0 +1,40 @@
+.origem-content {
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+  width: 100%;
+}
+
+select {
+  background-color: #0fa36b;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  height: 30px;
+  margin: 20px 0;
+  outline: none;
+  width: 100px;
+}
+
+select option {
+  background-color: #0fa36b;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  height: 10px;
+}
+
+.origem-foods-container {
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-wrap: wrap;
+  height: 475px;
+  overflow: auto;
+  width: 360px;
+}

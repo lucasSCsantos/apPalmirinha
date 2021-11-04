@@ -1,0 +1,145 @@
+.appalmirinha {
+  animation: normal title 1s;
+  animation-fill-mode: forwards;
+  color: #FFFF;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  text-shadow: 3px 0 0 #0fa36b, -3px 0 0 #0fa36b, 0 3px 0 #0fa36b, 0 -3px 0 #0fa36b, 2px 2px #0fa36b, -2px -2px 0 #0fa36b, 2px -2px 0 #0fa36b, -2px 2px 0 #0fa36b;
+  top: 160px;
+  transform: translateY(-2px);
+  z-index: 10;
+}
+
+@keyframes title {
+  from {
+    transform: translateY(640px);
+  }
+
+  to {
+    transform: translateY(-2px);
+  }
+}
+
+.loginContainer {
+  background-color: #0fa36b;
+  display: flex;
+  height: 640px;
+  justify-content: center;
+  position: relative;
+}
+
+@keyframes logo {
+  from {
+    transform: translateY(640px);
+  }
+
+  to {
+    transform: translateY(44px);
+  }
+}
+
+.loginContainer img {
+  animation: normal logo 1s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  width: 175px;
+}
+
+@keyframes login {
+  from {
+    transform: translateY(640px);
+  }
+
+  to {
+    transform: translateY(calc(640px - 448px));
+  }
+}
+
+.login-form {
+  animation: normal login 1s;
+  animation-fill-mode: forwards;  
+  align-items:center;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  transition: ease 0.2s;
+  width: 100%;
+  z-index: 15;
+}
+
+.login-form h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 35px 0;
+}
+
+.login-form label {
+  position: relative;
+  /* z-index: -1; */
+}
+
+#password, #email {
+  background-color: #F5F7F9;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  font-size: 12px;
+  font-weight: 700;
+  height: 55px;
+  outline: none;
+  overflow: hidden;
+  padding: 18px 25px 5px;
+  transition: ease 0.2s;
+  width: 280px;
+}
+
+#password:focus, #email:focus {
+  background-color: white;
+  border: solid 2.5px green;
+  transition: ease 0.2s;
+}
+
+.digitin {
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 6px;
+  margin-top: 3px;
+  opacity: 0.8;
+  top: 10px;
+  transform: translateY(-12px);
+  transition: ease 0.1s;
+}
+
+.placeE, .placeS {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  left: 21px;
+  position: absolute;
+  top: 17px;
+  transition: ease 0.2s;
+}
+
+.login-form button {
+  background-image: linear-gradient(to bottom, rgb(0, 163, 0), rgb(0, 109, 0));
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.288);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  height: 55px;
+  margin-top: 30px;
+  opacity: 1;
+  transition: ease 0.8s;
+  width: 280px;
+}
+
+.login-form button:disabled {
+  background-color: green;
+  background-image: none;
+  box-shadow: none;
+  opacity: 0.7;
+  transition: ease 1s;
+}

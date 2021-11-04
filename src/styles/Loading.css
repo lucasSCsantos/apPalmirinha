@@ -1,0 +1,17 @@
+.loading {
+  animation: infinite load 1s;
+  margin: 0 auto;
+  width: 180px;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}

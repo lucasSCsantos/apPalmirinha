@@ -1,0 +1,24 @@
+.explorar-container {
+  background-color: #f6f6f6;
+  height: 640px;
+  width: 360px;
+}
+
+.explorar-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.explore-food button, .explore-drinks button {
+  background-color: #0fa36b;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.329);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  height: 60px;
+  margin-top: 30px;
+  width: 250px;
+}

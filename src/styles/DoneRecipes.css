@@ -1,0 +1,8 @@
+.DoneRecipesContainer {
+  background: #f6f6f6;
+  border-top: none;
+  flex-direction: column;
+  height: 510px;
+  overflow: hidden;
+  width: 100%;
+}

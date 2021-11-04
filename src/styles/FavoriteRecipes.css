@@ -1,0 +1,16 @@
+.FavoriteRecipesContainer {
+  align-items: center;
+  background: #f6f6f6;
+  border-top: none;
+  flex-direction: column;
+  height: 510px;
+  overflow: auto;
+  width: 360px;
+}
+
+.f-loading {
+  margin-top: 100px;
+  transform: translateX(50%);
+  width: 180px;
+}
+

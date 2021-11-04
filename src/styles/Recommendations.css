@@ -1,0 +1,57 @@
+.recommendation-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.recommendation-carroussel {
+  align-items: center;
+  display: flex;
+  margin-bottom: 66px;
+  overflow-x: hide;
+  transform: translateX(0);
+  transition: 0.2s ease;
+  width: 100%;
+}
+
+.carroussel-item {
+  display: none;
+  width: 147.5px;
+}
+
+.carroussel-item-0, .carroussel-item-1 {
+  display: block;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+  width: fit-content;
+}
+
+.carroussel-content {
+  display: flex;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+  width: fit-content;
+}
+
+.arrow-r {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  margin-top: -100px;
+  outline: none;
+  position: absolute;
+  width: 23%;
+  z-index: 10;
+}
+
+.arrow-l {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  margin-top: -100px;
+  outline: none;
+  position: absolute;
+  right: 0;
+  width: 23%;
+  z-index: 10;
+}

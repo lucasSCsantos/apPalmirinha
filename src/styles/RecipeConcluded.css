@@ -1,0 +1,84 @@
+.RecipeConcludedContainer {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  height: 170px;
+  margin-left: 15px;
+  margin-top: 20px;
+  overflow: hidden;
+  width: 330px;
+}
+
+.RecipeConcludedContainer img {
+  border-radius: 20px;
+  height: 80%;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+.RecipeInfoConcluded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  position: relative;
+}
+
+.RecipesFoodName {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: -6px;
+}
+
+.doneDate {
+  margin-bottom: -6px;
+}
+
+.tagContainer {
+  align-items: center;
+  display: flex;
+  height: 25px;
+  width: 100%;
+}
+
+.tagName {
+  color: red;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.shareBTN {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0 18px 0 0;
+  border: none;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  width: 20px;
+}
+
+.shareBTN img {
+  height: 20px;
+  width: 20px;
+}
+
+.share-done-btn button {
+  align-items: center;
+  background-size: contain;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  width: 20px;
+}
+
+.share-done-btn button img {
+  background-color: transparent;
+  border-radius: 0;
+  margin: 0;
+}

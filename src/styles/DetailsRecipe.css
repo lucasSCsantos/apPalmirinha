@@ -1,0 +1,154 @@
+.details-btn {
+  bottom: 0;
+  position: fixed;
+}
+
+.recipe-img {
+  border-radius: 30px;
+}
+
+.details-loading {
+  animation: infinite load 1s;
+  margin: 0 20%;
+  position: relative;
+  top: 30%;
+  width: 220px;
+}
+
+.details-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.details-content {
+  display: flex;
+  flex-direction: column;
+  height: calc(640px - 58px);
+  margin-top: 58px;
+  overflow-x: hidden;
+  overflow: auto;
+  padding: 0 30px 0 30px;
+  width: 360px;
+}
+
+.share-btn {
+  background-color: #0fa36b;
+  border-radius: 10px;
+  border: none;
+  outline: none !important;
+  padding: 10px;
+  width:30%;
+}
+
+.video {
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+.startRecipe-btn, .continueRecipe-btn {
+  background-image: linear-gradient(180deg, #0fa36b, rgb(0, 109, 0));
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.288);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  height: 55px;
+  margin-bottom: 16px;
+  opacity: 1;
+  transition: ease 0.8s;
+  width: 295px;
+}
+
+.continueRecipe-btn {
+  position: absolute;
+  top: 570px;
+}
+
+.share-btn img {
+  height: 25px;
+}
+
+.instructions {
+  font-size: 14px;
+}
+
+.ingredient-title, .instructions-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.ingredient {
+  font-size: 14px;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.recipe-title {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.arrow {
+  height: 18px;
+  margin-left: -4px;
+  width: 18px;
+}
+
+.details-header {
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  height: 58px;
+  justify-content: space-around;
+  position: fixed;
+  width: 360px;
+}
+
+.details-header h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 9px;
+}
+
+.arrow-bg {
+  align-items: center;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.199) 0 5px 20px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-left: -10px;
+  width: 40px;
+}
+
+.Favorite-Page-Button-Styles {
+  align-items: center;
+  background-color: #0fa36b;
+  border-radius: 100%;
+  border: none;
+  box-shadow: #0fa36a62 0 0 10px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-right: -5px;
+  outline: none;
+  transition: ease 0.2s;
+  width: 40px;
+}
+
+.Favorite-Page-Button-Styles:active {
+  background-color: #0c7e52;
+  transition: ease 0.2s;
+}
+
+.Favorite-Page-Button-Styles img {
+  height: 20px;
+  width: 20px;
+}
