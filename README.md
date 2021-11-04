@@ -39,3 +39,9 @@ npm install
 ```javascript
 npm start
 ```
+
+### Esse projeto foi desenvolvido junto com:
+
+* [Matheus Alexandre](https://github.com/alexandremhm)
+* [Dario Junior](https://github.com/DarioJunior)
+* [Jhonata Braga](https://github.com/jhonatavbrg)
