@@ -2,6 +2,8 @@
 
 Um app de receitas onde é possível obter receitas de comidas e bebidas a partir de filtros e buscas e também iniciar e fazer o controle das suas receitas em andamento. (A aplicação foi pensada em formato mobile, para melhor visualização usar resolução 360x640)
 
+# [Link da Aplicação](https://appalmirinha.herokuapp.com/)
+
 ## Sobre o projeto
 
 Este projeto foi desenvolvido em grupo visando por em prática os conhecimentos em React e Metodologias Ágeis de trabalho. Durante o projeto foram utilizadas as praticas de SCRUM e KANBAN com planejamento inicial e reuniões diárias até a entrega do projeto. Junto com o React usamos os React Router, Hooks, Context API e Redux além de CSS puro para estilização.
